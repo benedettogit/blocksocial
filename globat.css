@@ -1,0 +1,27 @@
+I've added vimeo to 2 files, 
+but there is some code missing in the global.css, 
+and as i'm new to this i don't know how to put it here, 
+so i will list what needs to included and hopefully some of you will help put it in the wright place. 
+
+around line 4700 add this
+
+.icon-vimeo:before {
+  content: "\f194"; }
+
+.icon-vimoe-sign:before {
+  content: "\f194"; }
+  
+  around line 6900
+  		  
+  		  .footer-container #footer #social_block ul li.vimeo a:before {
+            content: "\f194"; }
+            
+and at the very end of the file around line 8050 add this
+
+.btn-vimeo i {
+  color: #ce1f21; }
+.btn-vimeo:hover {
+  color: white;
+  background-color: #ce1f21; }
+  .btn-vimeo:hover i {
+    color: white; }
